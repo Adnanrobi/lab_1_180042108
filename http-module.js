@@ -4,6 +4,7 @@ const contents = require('./loadContents');
 
 const server = http.createServer((req, res) => {
   if (req.url == '/') {
+    //res.writeHead(201,{"Content-Type": "text/html"}) ;
     res.write(contents.index);
     res.end();
   } else if (req.url == '/blog') {

@@ -1,3 +1,3 @@
-const server = require('./http-module');
+const serverSetter = require('./http-module');
 
-server.server.listen(2108);
+serverSetter.server.listen(2108);

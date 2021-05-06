@@ -16,6 +16,3 @@ setTimeout(() => {
 //local Module
 //Global Module
 //3rd Party Module/Package
-
-//setInterval- runs as a loop
-//setTimeout- runs only once
